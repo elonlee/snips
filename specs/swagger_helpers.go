@@ -85,7 +85,9 @@ func (s *Swagger) intermediateTypeOfSchema(schema *spec.Schema) string {
 		return s.intermediateType(strings.Join(schema.Type, ""), schema.Format)
 	}
 
-	if schema.AdditionalProperties.Allows && schema.AdditionalProperties.Schema != nil {
+	// fmt.Printf("%+v", schema)
+	if schema.AdditionalProperties != nil && schema.AdditionalProperties.Allows && schema.AdditionalProperties.Schema != nil {
+		// if schema.AdditionalProperties.Allows && schema.AdditionalProperties.Schema != nil {
 		return s.intermediateTypeOfSchema(schema.AdditionalProperties.Schema)
 	}
 

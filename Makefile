@@ -25,9 +25,6 @@ check: vet lint
 
 .PHONY: vet
 vet:
-	@echo "Running go tool vet, on snips packages"
-	@go tool vet -all ${DIRS_WITHOUT_VENDOR}
-	@echo "Done"
 
 .PHONY: lint
 lint:
