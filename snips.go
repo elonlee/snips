@@ -18,7 +18,7 @@
 package main
 
 import (
-	"github.com/yunify/snips/cmds"
+	"github.com/elonlee/snips/cmds"
 )
 
 func main() {

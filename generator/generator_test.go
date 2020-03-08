@@ -25,10 +25,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/yunify/snips/capsules"
-	"github.com/yunify/snips/constants"
-	"github.com/yunify/snips/specs"
-	"github.com/yunify/snips/templates"
+	"github.com/elonlee/snips/capsules"
+	"github.com/elonlee/snips/constants"
+	"github.com/elonlee/snips/specs"
+	"github.com/elonlee/snips/templates"
 )
 
 func TestGenerator(t *testing.T) {

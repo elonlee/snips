@@ -25,8 +25,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/yunify/snips/capsules"
-	"github.com/yunify/snips/templates"
+	"github.com/elonlee/snips/capsules"
+	"github.com/elonlee/snips/templates"
 )
 
 // Generator will load a API spec file and covert it to corresponding programing code.

@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"path"
 
-	"github.com/yunify/snips/capsules"
-	"github.com/yunify/snips/constants"
+	"github.com/elonlee/snips/capsules"
+	"github.com/elonlee/snips/constants"
 )
 
 // A Spec holds the information of an API spec file.

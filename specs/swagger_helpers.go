@@ -24,7 +24,7 @@ import (
 	"github.com/go-openapi/spec"
 	"github.com/imdario/mergo"
 
-	"github.com/yunify/snips/capsules"
+	"github.com/elonlee/snips/capsules"
 )
 
 func (s *Swagger) intermediateType(typeName, formatName string) string {

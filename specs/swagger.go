@@ -25,7 +25,7 @@ import (
 	"github.com/go-openapi/loads"
 	"github.com/go-openapi/spec"
 
-	"github.com/yunify/snips/capsules"
+	"github.com/elonlee/snips/capsules"
 )
 
 // Swagger holds the data that to parse swagger spec.

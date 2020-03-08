@@ -23,7 +23,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/yunify/snips/constants"
+	"github.com/elonlee/snips/constants"
 )
 
 func TestLoadSpec(t *testing.T) {

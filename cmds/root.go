@@ -23,12 +23,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/yunify/snips/capsules"
-	"github.com/yunify/snips/constants"
-	"github.com/yunify/snips/generator"
-	"github.com/yunify/snips/specs"
-	"github.com/yunify/snips/templates"
-	"github.com/yunify/snips/utils"
+	"github.com/elonlee/snips/capsules"
+	"github.com/elonlee/snips/constants"
+	"github.com/elonlee/snips/generator"
+	"github.com/elonlee/snips/specs"
+	"github.com/elonlee/snips/templates"
+	"github.com/elonlee/snips/utils"
 )
 
 var (

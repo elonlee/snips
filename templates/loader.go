@@ -23,7 +23,7 @@ import (
 
 	"github.com/imdario/mergo"
 
-	"github.com/yunify/snips/utils"
+	"github.com/elonlee/snips/utils"
 )
 
 // LoadTemplates read the template manifest and load all templates info.

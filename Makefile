@@ -37,7 +37,8 @@ lint:
 build:
 	@echo "Building snips"
 	mkdir -p ./bin
-	go build -o ./bin/snips .
+	go build -o ./bin/snips.exe .
+	cp ./bin/snips.exe ${GOPATH}/bin/snipsme.exe
 	@echo "Done"
 
 .PHONY: test
@@ -50,7 +51,7 @@ test:
 test-coverage:
 	@echo "Running test with coverage"
 	for pkg in ${PKGS_WITHOUT_VENDOR}; do \
-		output="coverage$${pkg#github.com/yunify/snips}"; \
+		output="coverage$${pkg#github.com/elonlee/snips}"; \
 		mkdir -p $${output}; \
 		go test -v -cover -coverprofile="$${output}/profile.out" $${pkg}; \
 		if [[ -e "$${output}/profile.out" ]]; then \

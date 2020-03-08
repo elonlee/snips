@@ -23,7 +23,7 @@ import (
 	"github.com/go-openapi/loads"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/yunify/snips/capsules"
+	"github.com/elonlee/snips/capsules"
 )
 
 func TestSwagger_getIntermediateType(t *testing.T) {

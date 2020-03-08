@@ -22,8 +22,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/yunify/snips/capsules"
-	"github.com/yunify/snips/utils"
+	"github.com/elonlee/snips/capsules"
+	"github.com/elonlee/snips/utils"
 )
 
 var funcMap = template.FuncMap{
@@ -33,6 +33,7 @@ var funcMap = template.FuncMap{
 	"lower":          lower,
 	"lowerFirst":     utils.LowerFirstCharacter,
 	"lowerFirstWord": utils.LowerFirstWord,
+	"upper":          strings.ToUpper,
 	"upperFirst":     utils.UpperFirstCharacter,
 	"normalized":     normalized,
 	"dashConnected":  dashConnected,
